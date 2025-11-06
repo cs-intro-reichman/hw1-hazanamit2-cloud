@@ -6,7 +6,7 @@ public class Bill3 {
 		String name2 = args [1];
 		String name3 = args [2];
 		int sum = Integer.parseInt ( args [3] );
-		System.out.println ("Dear " + name3 + ", " + name2 + ", and " + name1 + " :pay " + (Math.ceil(sum/3.0)) + " Shekels each" );
+		System.out.println ("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + (Math.ceil(sum/3.0)) + " Shekels each" );
 	    // Replace this comment with the rest of your code   
 	}
 }
