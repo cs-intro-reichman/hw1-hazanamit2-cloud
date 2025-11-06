@@ -13,9 +13,9 @@ public class TimeFormat {
 		// Does the same with the minutes part of the input.
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
         // Replace this comment with the rest of your code
-		String Default = " AM ";	
+		String Default = "AM";	
 		if (hours > 12 )
-			{Default = " PM ";} 
+			{Default = "PM";} 
 		if (hours > 12 ) 
 		   {hours = hours - 12;}
 		if (hours == 0 )
