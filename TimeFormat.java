@@ -19,7 +19,7 @@ public class TimeFormat {
 		if (hours > 12 ) 
 		   {hours = hours - 12;}
 		if (hours == 0 )
-		    {hours = 12;}
+		    {hours = 0;}
 			 if (minutes < 10) {
             System.out.println(hours + ":0" + minutes + " " + Default);
         } else {
